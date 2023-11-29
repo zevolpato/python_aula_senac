@@ -3,12 +3,9 @@ str = "textos"
 int = 10
 float = 10.5
 boolean = true
-
 """
-
 # nomes para variavel
-
-nome = "jose "
+nome = "jose afranio volpato junior"
 print(nome)
 #mostrando o tipo
 print(type(nome))
@@ -16,9 +13,13 @@ print(type(nome))
 print(len(nome))
 #função Uper case
 print(nome.upper())
+#for x in nome:
+#    print(x)
 
-for x in nome:
-    print(x)
+print(nome[5::])
+
+
+
 
     
 
