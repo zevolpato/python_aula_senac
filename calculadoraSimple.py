@@ -14,3 +14,5 @@ print("O resultado da Subtração é: ", n1-n2)
 print("O resultado da Divisão é :", divisao)
 print(type(divisao))
 print("O resultado da Multiplicação é : ", n1*n2)
+
+
