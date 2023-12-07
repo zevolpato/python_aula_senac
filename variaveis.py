@@ -22,6 +22,7 @@ print(nome[5::])
 #print(a)
 #print(b)
 #print(c)
+"""
 a,b,c = 10,3,5
 print(type(a))
 print(a,b,c)
@@ -31,8 +32,19 @@ print(a,b,c)
 a=100
 print(type(a))
 print(a,b,c)
+"""
 
+nomeCompleto = "Jose Afranio Volpato Junior"
 
+print(nomeCompleto[0:10]) # primeiros dez caracteres
+print(nomeCompleto[-1]) # ultimo caractere
+print(nomeCompleto[3:10])
+print(nomeCompleto[5::])
+print(nomeCompleto[-6:-1])
+print(nomeCompleto[-6::])
+
+cpf= "0123456789ab"
+print(cpf[0:3]+"."+cpf[3:6]+"."+cpf[6:9]+"-"+cpf[-2::])
 
     
 
